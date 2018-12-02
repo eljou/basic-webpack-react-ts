@@ -4,7 +4,11 @@
 		"sourceMap": true,
 		"module": "commonjs",
 		"target": "es5",
-		"jsx": "react"
+		"jsx": "react",
+		"allowSyntheticDefaultImports": true,
+		"noImplicitAny": true,
+		"removeComments": false,
+		"preserveConstEnums": true
 	},
 	"exclude": [
 		"node_modules"

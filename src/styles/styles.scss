@@ -1,0 +1,38 @@
+$bgkColor: #f3f3f3;
+$btnPrimary: #5e5e5e;
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.3rem;
+	background-color: $bgkColor;
+}
+
+button {
+	height: 2.5rem;
+	border: none;
+	font-size: 1.3rem;
+	border-bottom: 4px solid #ccc;
+	margin-left: .5rem;
+	cursor: pointer;
+	color: $btnPrimary;
+}
+
+.container {
+	font-size: 1.3rem;
+}
+
+.is-completed {
+	text-decoration: line-through;
+	color: $btnPrimary;
+}
+
+.tdl-input {
+	padding: .5rem;
+	margin: 1rem 0;
+}
+
+.tdl-task {
+	padding: .5rem;
+}
+
